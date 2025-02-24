@@ -227,7 +227,7 @@ const handleDocumentOwnerDelete = async ({
         return;
       }
 
-      const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
+      const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:5173';
 
       const template = createElement(DocumentCancelTemplate, {
         documentName: document.title,

@@ -17,7 +17,7 @@ export type UserProfileTimurProps = {
 };
 
 export const UserProfileTimur = ({ className, rows = 2 }: UserProfileTimurProps) => {
-  const baseUrl = new URL(NEXT_PUBLIC_WEBAPP_URL() ?? 'http://localhost:3000');
+  const baseUrl = new URL(NEXT_PUBLIC_WEBAPP_URL() ?? 'http://localhost:5173');
 
   return (
     <div

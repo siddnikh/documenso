@@ -560,7 +560,7 @@ export const createDocumentFromDirectTemplate = async ({
         document.id
       }`,
       documentName: document.title,
-      assetBaseUrl: NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000',
+      assetBaseUrl: NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:5173',
     });
 
     const branding = template.team?.teamGlobalSettings

@@ -85,7 +85,7 @@ export const SEND_RECIPIENT_SIGNED_EMAIL_JOB_DEFINITION = {
       return;
     }
 
-    const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
+    const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:5173';
     const i18n = await getI18nInstance(document.documentMeta?.language);
 
     const template = createElement(DocumentRecipientSignedEmailTemplate, {
